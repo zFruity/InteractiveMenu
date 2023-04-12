@@ -195,7 +195,7 @@ int main(void)
             } while (tableno < 0 || tableno > tableamt - 1);
             if (tableno == -999)
                 break;
-            // runs arrays to go to next slot to add order if table has active order
+            // runs arrays to go to next slot if table has active order
             while (order[tableno][counter] != 0)
             {
                 counter++;
